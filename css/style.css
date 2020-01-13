@@ -24,12 +24,24 @@ p{
   font-family: sans-serif;
 }
 
+.signiature{
+  font-size: 0.75rem;
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
 .image{
   background: #965529;
   width: 100%;
   text-align: center;
+  line-height: 0;
 }
 
+.image img{
+  width: 300px;
+  height: auto;
+}
 nav, footer {
   background: black;
   width: 100%;
