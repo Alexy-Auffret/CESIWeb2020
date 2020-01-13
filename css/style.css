@@ -1,0 +1,43 @@
+body{
+  margin:0;
+}
+
+section{
+  margin : 10px;
+}
+
+h1{
+  font-family: fantasy;
+  color: #965529;
+}
+
+h2{
+  font-family: sans-serif;
+  color: green;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+.image{
+  background: #965529;
+  width: 100%;
+  text-align: center;
+}
+
+nav, footer {
+  background: black;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+nav a, footer a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
