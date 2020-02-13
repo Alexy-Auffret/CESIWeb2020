@@ -28,12 +28,23 @@ p, label{
 }
 
 article{
-  border : 0.05rem solid #965529;
+  border : 0.05rem solid #DDAD7B;
   margin-bottom: 5px;
 }
 
+.texteSurvol{
+  z-index:2;
+  opacity: 40%;
+  background:black;
+}
 .presentation{
+  opacity: 100%;
   border: none;
+  width:50%;
+}
+
+.presentation h2, h3, p{
+  opacity: 100%;
 }
 
 article p, article h2, article h3{
@@ -53,7 +64,7 @@ article p, article h2, article h3{
   text-align: right;
 }
 .image{
-  background: #965529;
+  background: #DDAD7B;
   width: 100%;
   height: 10em;
   text-align: center;
@@ -62,6 +73,7 @@ article p, article h2, article h3{
 
 img{
   width: auto;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -106,6 +118,8 @@ nav a:hover , footer a:hover {
 .main{
   grid-area: main;
   margin : 5px;
+  align-items: middle;
+  width: 100%;
 }
 .section{
   grid-area: section;
@@ -127,8 +141,14 @@ nav a:hover , footer a:hover {
   font-family: sans-serif;
 }
 /*Templating de la classe section par taille d'écrans*/
-@media only screen and (min-width: 45em){
+@media only screen and (min-width: 50em){
+  body{
+    margin:0 3em 0 3em;
+    background: #7F3506;
+  }
   .wrapper{
+    background: white;
+    box-shadow: 0 0 5em;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 1em;
