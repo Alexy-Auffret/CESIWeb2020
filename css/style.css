@@ -22,7 +22,7 @@ h3 {
   font-family: sans-serif;
 }
 
-p{
+p, label{
   font-family: sans-serif;
   text-align: justify;
 }
@@ -60,7 +60,7 @@ article p, article h2, article h3{
   line-height: 0;
 }
 
-.image img{
+img{
   width: auto;
   height: 100%;
 }
