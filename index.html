@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Groupe Madera</title>
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/search.css" rel="stylesheet" type="text/css">
     <meta name="robots" content="noindex, nofollow">
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" id="main" v-cloak>
       <header class="header">
         <a href="./index.html">
           <img src="./img/logo.png" alt="Logo Madera" title="Logo Madera" class="logo">
@@ -22,54 +23,22 @@
       </nav>
       <main class="main">
         <h1>Les News</h1>
-        <section class="section">
-          <article id="article1">
-            <div class="image">
-              <img src="./img/image1.jpg" alt="Maison modulaire" title="Maison modulaire">
-            </div>
-            <h2>La maison modulaire</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="signiature">Ecrit par M.Durand Le 05/01/2020</p>
-          </article>
-          <article id="article2">
-            <div class="image">
-              <img src="./img/image2.jpg" alt="Haut vent Madera 2020" title="Haut vent Madera 2020">
-            </div>
-            <h2>Le nouveau haut vent Madera 2020</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="signiature">Ecrit par M.Durand Le 20/12/2019</p>
-          </article>
-          <article id="article3">
-            <div class="image">
-              <img src="./img/image3.jpg" alt="Haut vent Madera 2020" title="Haut vent Madera 2020">
-            </div>
-            <h2>Pour les amoureux du bois</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="signiature">Ecrit par M.Durand Le 14/11/2019</p>
-          </article>
-          <article id="article4">
-            <div class="image">
-              <img src="./img/image4.jpg" alt="Haut vent Madera 2020" title="Haut vent Madera 2020">
-            </div>
-            <h2>Le modulaire Madera 2019</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="signiature">Ecrit par M.Durand Le 05/08/2018</p>
-          </article>
-          <article id="article5">
-            <div class="image">
-              <img src="./img/image5.jpg" alt="Haut vent Madera 2020" title="Haut vent Madera 2020">
-            </div>
-            <h2>Les bungalows Madera</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="signiature">Ecrit par M.Durand Le 16/06/2019</p>
-          </article>
-        </section>
+          <div class="bar">
+              <input type="text" v-model="searchString" placeholder="Chercher un article" />
+          </div>
       </main>
+      <div class="section">
+          <section class="section2" v-for="article in filteredArticles">
+            <article>
+              <div class="image">
+                <img v-bind:src="article.image">
+              </div>
+              <h2>{{article.title}}</h2>
+              <p>{{article.texte}}</p>
+              <p class="signiature">Ecrit par {{article.signiature}} Le {{article.date}}</p>
+            </article>
+          </section>
+        </div>
       <footer class="footer">
         <nav aria-label="Secondary NavBar" class="nav">
           <a href="./index.html">Accueil</a>
@@ -81,5 +50,7 @@
         <p style="color:white; font-size:0.75rem; text-align: center;">Copyright (c) 2018 Copyright Groupe Madera All Rights Reserved.</p>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+    <script src="./js/search.js"></script>
   </body>
 </html>

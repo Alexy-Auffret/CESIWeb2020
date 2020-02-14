@@ -30,6 +30,7 @@ p, label{
 article{
   border : 0.05rem solid #DDAD7B;
   margin-bottom: 5px;
+  height: 27em;
 }
 
 article p, article h2, article h3{
@@ -159,10 +160,12 @@ nav a:hover, footer a:hover {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 10px;
     grid-auto-flow: dense;
+    max-width: 100%;
     list-style: none;
+  }
+  .section2{
     margin: 1em;
     padding: 0;
-    max-width: 100%;
     min-width: 12em;
   }
   nav a, footer a {
