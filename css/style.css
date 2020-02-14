@@ -32,23 +32,37 @@ article{
   margin-bottom: 5px;
 }
 
-.texteSurvol{
-  z-index:2;
-  opacity: 40%;
-  background:black;
-}
-.presentation{
-  opacity: 100%;
-  border: none;
-  width:50%;
-}
-
-.presentation h2, h3, p{
-  opacity: 100%;
-}
-
 article p, article h2, article h3{
   margin : 5px 10px 0px 10px;
+}
+
+
+img{
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+nav a, footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+nav a:hover, footer a:hover {
+  color: #70C078;
+}
+
+.texteBlock{
+  position: relative;
+  display: flex;
+}
+.presentation{
+  justify-content: center;
+  align-content: center;
+  border: none;
+  margin-bottom: 2em;
 }
 
 .logo{
@@ -71,23 +85,6 @@ article p, article h2, article h3{
   line-height: 0;
 }
 
-img{
-  width: auto;
-  max-width: 100%;
-  height: 100%;
-}
-
-nav a, footer a {
-  color: green;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.75rem;
-}
-
-nav a:hover , footer a:hover {
-  color: white;
-}
-
 /*Code Grid CSS*/
 /*définition des classes grid*/
 .wrapper{
@@ -102,7 +99,7 @@ nav a:hover , footer a:hover {
 }
 .nav{
   grid-area: nav;
-  background: black;
+  background: #0F4114;
   width: 100%;
   padding: 5px 0px 5px 0px;
   font-family: sans-serif;
@@ -117,8 +114,6 @@ nav a:hover , footer a:hover {
 }
 .main{
   grid-area: main;
-  margin : 5px;
-  align-items: middle;
   width: 100%;
 }
 .section{
@@ -134,7 +129,7 @@ nav a:hover , footer a:hover {
 }
 .footer{
   grid-area: footer;
-  background: black;
+  background: #0F4114;
   width: 100%;
   padding: 5px 0px 5px 0px;
   text-align: center;
@@ -171,7 +166,6 @@ nav a:hover , footer a:hover {
     min-width: 12em;
   }
   nav a, footer a {
-    color: green;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;

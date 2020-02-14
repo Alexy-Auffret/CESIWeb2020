@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Groupe Madera</title>
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/form.css" rel="stylesheet" type="text/css">
     <meta name="robots" content="noindex, nofollow">
   </head>
   <body>
@@ -20,23 +21,21 @@
           <a href="./contact.html">Nous contacter</a>
       </nav>
       <main class="main">
-        <section style="text-align:center;">
-          <article style="border-radius:0.25rem; padding:1em; width:50%;">
-            <div style="width:100%; height:20em; background:grey;">
-              <img src="./img/image2.jpg" alt="Haut vent Madera 2020" title="Haut vent Madera 2020">
-            </div>
+        <section>
+          <article>
+            <img src="./img/image6.jpg" alt="Maison modulaire" title="Maison modulaire Madera 2020" style="height:auto;">
             <h1>Nous contacter</h1>
             <p style="margin-buttom:1em;">Un projet, un besoin n'hésitez pas à nous contacter :</p>
-            <form class="" action="contact.html" method="post">
-              <label for="">Votre nom : </label>
-              <input type="text" placeholder="nom" value="nom">
-              <label for="">Votre prénom : </label>
-              <input type="text" placeholder="prenom" value="prenom">
-              <label for="">Votre mail : </label>
-              <input type="text" placeholder="mail" value="mail">
-              <label for="commentaire">Votre commentaire : </label>
-              <textarea name="commentaire" rows="8" cols="80">Votre commentaire...</textarea>
-              <button type="button" name="button">Envoyer</button>
+            <form action="contact.html" method="post">
+              <label for="nom">Nom</label>
+              <input type="text" placeholder="Saisir nom" name="nom" id="nom">
+              <label for="prenom">Prénom</label>
+              <input type="text" placeholder="Saisir prenom" name="prenom" id="prenom">
+              <label for="mail">Mail</label>
+              <input type="email" placeholder="Saisir mail" name="mail" id="mail">
+              <label for="commentaire">Commentaire</label>
+              <textarea name="commentaire" id="commentaire" rows="8" cols="80" placeholder="Saisir votre commentaire..."></textarea>
+              <button type="button" name="button" id="button_submit">Envoyer</button>
             </form>
           </article>
         </section>
